@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8417AD852A448A930086C729 /* Con.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8431E7862A44546600E5E286 /* Con.swift */; };
+		8417AD862A448A980086C729 /* ConProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8431E7882A44585700E5E286 /* ConProvider.swift */; };
+		8417AD872A448AB70086C729 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8431E78D2A44638500E5E286 /* ViewModel.swift */; };
+		8417AD892A448DB30086C729 /* WatchRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8417AD882A448DB30086C729 /* WatchRecipeView.swift */; };
+		8431E7872A44546600E5E286 /* Con.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8431E7862A44546600E5E286 /* Con.swift */; };
+		8431E7892A44585700E5E286 /* ConProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8431E7882A44585700E5E286 /* ConProvider.swift */; };
+		8431E78C2A44589500E5E286 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8431E78B2A44589400E5E286 /* WatchConnectivity.framework */; };
+		8431E78E2A44638500E5E286 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8431E78D2A44638500E5E286 /* ViewModel.swift */; };
+		84A104C32A3FB520006E1750 /* freeRecipeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A104C22A3FB520006E1750 /* freeRecipeApp.swift */; };
+		84A104C52A3FB520006E1750 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A104C42A3FB520006E1750 /* ContentView.swift */; };
+		84A104C72A3FB522006E1750 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A104C62A3FB522006E1750 /* Assets.xcassets */; };
+		84A104CA2A3FB522006E1750 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A104C92A3FB522006E1750 /* Preview Assets.xcassets */; };
+		84A104D02A3FB522006E1750 /* freeRecipe Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 84A104CF2A3FB522006E1750 /* freeRecipe Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		84A104D52A3FB522006E1750 /* freeRecipeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A104D42A3FB522006E1750 /* freeRecipeApp.swift */; };
+		84A104D72A3FB522006E1750 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A104D62A3FB522006E1750 /* ContentView.swift */; };
+		84A104D92A3FB523006E1750 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A104D82A3FB523006E1750 /* Assets.xcassets */; };
+		84A104DC2A3FB523006E1750 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A104DB2A3FB523006E1750 /* Preview Assets.xcassets */; };
+		84A104E72A3FB578006E1750 /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A104E62A3FB578006E1750 /* RecipeView.swift */; };
+		84A104E92A3FCD7C006E1750 /* RecipeAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A104E82A3FCD7C006E1750 /* RecipeAdd.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84A104D12A3FB522006E1750 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84A104B72A3FB51F006E1750 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84A104CE2A3FB522006E1750;
+			remoteInfo = "freeRecipe Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		84A104E22A3FB523006E1750 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				84A104D02A3FB522006E1750 /* freeRecipe Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8417AD882A448DB30086C729 /* WatchRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchRecipeView.swift; sourceTree = "<group>"; };
+		8431E7862A44546600E5E286 /* Con.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Con.swift; sourceTree = "<group>"; };
+		8431E7882A44585700E5E286 /* ConProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConProvider.swift; sourceTree = "<group>"; };
+		8431E78B2A44589400E5E286 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+		8431E78D2A44638500E5E286 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		84A104BF2A3FB520006E1750 /* freeRecipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = freeRecipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A104C22A3FB520006E1750 /* freeRecipeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = freeRecipeApp.swift; sourceTree = "<group>"; };
+		84A104C42A3FB520006E1750 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		84A104C62A3FB522006E1750 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84A104C92A3FB522006E1750 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84A104CF2A3FB522006E1750 /* freeRecipe Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "freeRecipe Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A104D42A3FB522006E1750 /* freeRecipeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = freeRecipeApp.swift; sourceTree = "<group>"; };
+		84A104D62A3FB522006E1750 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		84A104D82A3FB523006E1750 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84A104DB2A3FB523006E1750 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84A104E62A3FB578006E1750 /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
+		84A104E82A3FCD7C006E1750 /* RecipeAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeAdd.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84A104BC2A3FB520006E1750 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8431E78C2A44589500E5E286 /* WatchConnectivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A104CC2A3FB522006E1750 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8431E78A2A44589400E5E286 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8431E78B2A44589400E5E286 /* WatchConnectivity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84A104B62A3FB51F006E1750 = {
+			isa = PBXGroup;
+			children = (
+				84A104C12A3FB520006E1750 /* freeRecipe */,
+				84A104D32A3FB522006E1750 /* freeRecipe Watch App */,
+				84A104C02A3FB520006E1750 /* Products */,
+				8431E78A2A44589400E5E286 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84A104C02A3FB520006E1750 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84A104BF2A3FB520006E1750 /* freeRecipe.app */,
+				84A104CF2A3FB522006E1750 /* freeRecipe Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84A104C12A3FB520006E1750 /* freeRecipe */ = {
+			isa = PBXGroup;
+			children = (
+				84A104C22A3FB520006E1750 /* freeRecipeApp.swift */,
+				84A104C42A3FB520006E1750 /* ContentView.swift */,
+				84A104E62A3FB578006E1750 /* RecipeView.swift */,
+				84A104E82A3FCD7C006E1750 /* RecipeAdd.swift */,
+				84A104C62A3FB522006E1750 /* Assets.xcassets */,
+				84A104C82A3FB522006E1750 /* Preview Content */,
+				8431E7862A44546600E5E286 /* Con.swift */,
+				8431E7882A44585700E5E286 /* ConProvider.swift */,
+				8431E78D2A44638500E5E286 /* ViewModel.swift */,
+			);
+			path = freeRecipe;
+			sourceTree = "<group>";
+		};
+		84A104C82A3FB522006E1750 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				84A104C92A3FB522006E1750 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		84A104D32A3FB522006E1750 /* freeRecipe Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				84A104D42A3FB522006E1750 /* freeRecipeApp.swift */,
+				84A104D62A3FB522006E1750 /* ContentView.swift */,
+				8417AD882A448DB30086C729 /* WatchRecipeView.swift */,
+				84A104D82A3FB523006E1750 /* Assets.xcassets */,
+				84A104DA2A3FB523006E1750 /* Preview Content */,
+			);
+			path = "freeRecipe Watch App";
+			sourceTree = "<group>";
+		};
+		84A104DA2A3FB523006E1750 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				84A104DB2A3FB523006E1750 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84A104BE2A3FB520006E1750 /* freeRecipe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84A104E32A3FB523006E1750 /* Build configuration list for PBXNativeTarget "freeRecipe" */;
+			buildPhases = (
+				84A104BB2A3FB520006E1750 /* Sources */,
+				84A104BC2A3FB520006E1750 /* Frameworks */,
+				84A104BD2A3FB520006E1750 /* Resources */,
+				84A104E22A3FB523006E1750 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84A104D22A3FB522006E1750 /* PBXTargetDependency */,
+			);
+			name = freeRecipe;
+			productName = freeRecipe;
+			productReference = 84A104BF2A3FB520006E1750 /* freeRecipe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84A104CE2A3FB522006E1750 /* freeRecipe Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84A104DF2A3FB523006E1750 /* Build configuration list for PBXNativeTarget "freeRecipe Watch App" */;
+			buildPhases = (
+				84A104CB2A3FB522006E1750 /* Sources */,
+				84A104CC2A3FB522006E1750 /* Frameworks */,
+				84A104CD2A3FB522006E1750 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "freeRecipe Watch App";
+			productName = "freeRecipe Watch App";
+			productReference = 84A104CF2A3FB522006E1750 /* freeRecipe Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84A104B72A3FB51F006E1750 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					84A104BE2A3FB520006E1750 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					84A104CE2A3FB522006E1750 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 84A104BA2A3FB51F006E1750 /* Build configuration list for PBXProject "freeRecipe" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84A104B62A3FB51F006E1750;
+			productRefGroup = 84A104C02A3FB520006E1750 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84A104BE2A3FB520006E1750 /* freeRecipe */,
+				84A104CE2A3FB522006E1750 /* freeRecipe Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84A104BD2A3FB520006E1750 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A104CA2A3FB522006E1750 /* Preview Assets.xcassets in Resources */,
+				84A104C72A3FB522006E1750 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A104CD2A3FB522006E1750 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A104DC2A3FB523006E1750 /* Preview Assets.xcassets in Resources */,
+				84A104D92A3FB523006E1750 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84A104BB2A3FB520006E1750 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A104E72A3FB578006E1750 /* RecipeView.swift in Sources */,
+				8431E7872A44546600E5E286 /* Con.swift in Sources */,
+				84A104C52A3FB520006E1750 /* ContentView.swift in Sources */,
+				8431E7892A44585700E5E286 /* ConProvider.swift in Sources */,
+				84A104C32A3FB520006E1750 /* freeRecipeApp.swift in Sources */,
+				84A104E92A3FCD7C006E1750 /* RecipeAdd.swift in Sources */,
+				8431E78E2A44638500E5E286 /* ViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A104CB2A3FB522006E1750 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8417AD892A448DB30086C729 /* WatchRecipeView.swift in Sources */,
+				8417AD872A448AB70086C729 /* ViewModel.swift in Sources */,
+				8417AD862A448A980086C729 /* ConProvider.swift in Sources */,
+				8417AD852A448A930086C729 /* Con.swift in Sources */,
+				84A104D72A3FB522006E1750 /* ContentView.swift in Sources */,
+				84A104D52A3FB522006E1750 /* freeRecipeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84A104D22A3FB522006E1750 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84A104CE2A3FB522006E1750 /* freeRecipe Watch App */;
+			targetProxy = 84A104D12A3FB522006E1750 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		84A104DD2A3FB523006E1750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84A104DE2A3FB523006E1750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		84A104E02A3FB523006E1750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"freeRecipe Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = GC734AS7G4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = freeRecipe;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = keril.freeRecipe;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = keril.freeRecipe.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		84A104E12A3FB523006E1750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"freeRecipe Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = GC734AS7G4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = freeRecipe;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = keril.freeRecipe;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = keril.freeRecipe.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		84A104E42A3FB523006E1750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"freeRecipe/Preview Content\"";
+				DEVELOPMENT_TEAM = GC734AS7G4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = freeRecipe;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = keril.freeRecipe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84A104E52A3FB523006E1750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"freeRecipe/Preview Content\"";
+				DEVELOPMENT_TEAM = GC734AS7G4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = freeRecipe;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = keril.freeRecipe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84A104BA2A3FB51F006E1750 /* Build configuration list for PBXProject "freeRecipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A104DD2A3FB523006E1750 /* Debug */,
+				84A104DE2A3FB523006E1750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84A104DF2A3FB523006E1750 /* Build configuration list for PBXNativeTarget "freeRecipe Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A104E02A3FB523006E1750 /* Debug */,
+				84A104E12A3FB523006E1750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84A104E32A3FB523006E1750 /* Build configuration list for PBXNativeTarget "freeRecipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A104E42A3FB523006E1750 /* Debug */,
+				84A104E52A3FB523006E1750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84A104B72A3FB51F006E1750 /* Project object */;
+}
